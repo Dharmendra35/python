@@ -3,7 +3,7 @@ def pure_chai(cups):
 
 total_chai = 0
 
-# not recomended
+# not recomended -> impure functions
 def impure_chai(cups):
   global total_chai
   total_chai += cups
@@ -16,8 +16,9 @@ def pour_chai(n):
 
 print(pour_chai(3))
 
-chai_types = ["light", "kadak", "ginger", "kadak"]
 
+#lambda functions
+chai_types = ["light", "kadak", "ginger", "kadak"]
 strong_chai = list(filter(lambda chai: chai=="kadak", chai_types))
 print(strong_chai)
 
