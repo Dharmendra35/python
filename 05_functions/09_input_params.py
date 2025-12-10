@@ -30,4 +30,13 @@ special_chai("Cinamonn", "Cardmom", sweetener="Honey", foam="yes")
 # Ingredients ('Cinamonn', 'Cardmom') -> will tuple => args
 # Extras {'sweetener': 'Honey', 'foam': 'yes'} -> will dictionary  => kwargs 
 
-def chai_order()
+# def chai_order(order[]):
+#   order.append("Masala")
+#   print(order)
+
+def chai_order(order = None):
+  if order is None:
+    order = []
+  print(order)
+
+chai_order()
