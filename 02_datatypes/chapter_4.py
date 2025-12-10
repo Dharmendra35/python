@@ -1,0 +1,5 @@
+is_boiling = True
+stri_count = 5
+
+total = is_boiling + stri_count
+print(f"Total cnt is: {total}")
